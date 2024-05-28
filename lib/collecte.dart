@@ -44,7 +44,7 @@ class _CollecteState extends State<CollectePage> {
                     fontSize: 22),
               ),
             ),
-            backgroundColor: const Color.fromARGB(255, 204, 0, 10),
+            backgroundColor: const Color.fromARGB(255, 1, 18, 144),
             leading: Padding(
               padding: const EdgeInsets.only(top: 20.0),
               child: IconButton(
@@ -168,7 +168,7 @@ class _CollecteState extends State<CollectePage> {
             height: 20,
           ),
           Card(
-            color: const Color.fromARGB(255, 204, 0, 10),
+            color: const Color.fromARGB(255, 1, 18, 144),
             child: ExpansionTile(
               title: const Text(
                 "Indicateur Hygiène, Sécurité, Environnement",
@@ -220,13 +220,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText:
                                                 "Nombre d'heures travaillées"),
                                         controller: nbHeureDep1Controller,
@@ -264,13 +262,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText:
                                                 "Nombre d'heures travaillées"),
                                         controller: nbHeureDep2Controller,
@@ -308,13 +304,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText:
                                                 "Nombre d'heures travaillées"),
                                         controller: nbHeureDep3Controller,
@@ -360,13 +354,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText: "Nombre d'incidents"),
                                         controller: nbIncidentDysfController,
                                         keyboardType: TextInputType.number,
@@ -391,11 +383,11 @@ class _CollecteState extends State<CollectePage> {
                                 focusedBorder: const OutlineInputBorder(
                                     borderSide: BorderSide(
                                         color:
-                                            Color.fromARGB(255, 204, 0, 10))),
+                                            Color.fromARGB(255, 1, 18, 144))),
                                 labelStyle:
                                     const TextStyle(color: Colors.black),
                                 floatingLabelStyle: const TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10)),
+                                    color: Color.fromARGB(255, 1, 18, 144)),
                                 labelText: "Sévérité",
                                 suffixIcon: PopupMenuButton<String>(
                                   icon: const Icon(Icons.arrow_drop_down),
@@ -432,13 +424,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText: "Nombre d'incidents"),
                                         controller:
                                             nbDommageEquipementController,
@@ -464,11 +454,11 @@ class _CollecteState extends State<CollectePage> {
                                 focusedBorder: const OutlineInputBorder(
                                     borderSide: BorderSide(
                                         color:
-                                            Color.fromARGB(255, 204, 0, 10))),
+                                            Color.fromARGB(255, 1, 18, 144))),
                                 labelStyle:
                                     const TextStyle(color: Colors.black),
                                 floatingLabelStyle: const TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10)),
+                                    color: Color.fromARGB(255, 1, 18, 144)),
                                 labelText: "Sévérité",
                                 suffixIcon: PopupMenuButton<String>(
                                   icon: const Icon(Icons.arrow_drop_down),
@@ -506,13 +496,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText: "Nombre d'incidents"),
                                         controller: nbDommageVehiculeController,
                                         keyboardType: TextInputType.number,
@@ -537,11 +525,11 @@ class _CollecteState extends State<CollectePage> {
                                 focusedBorder: const OutlineInputBorder(
                                     borderSide: BorderSide(
                                         color:
-                                            Color.fromARGB(255, 204, 0, 10))),
+                                            Color.fromARGB(255, 1, 18, 144))),
                                 labelStyle:
                                     const TextStyle(color: Colors.black),
                                 floatingLabelStyle: const TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10)),
+                                    color: Color.fromARGB(255, 1, 18, 144)),
                                 labelText: "Sévérité",
                                 suffixIcon: PopupMenuButton<String>(
                                   icon: const Icon(Icons.arrow_drop_down),
@@ -589,13 +577,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText:
                                                 "Commencez à saisir votre commentaire..."),
                                         controller:
@@ -608,7 +594,7 @@ class _CollecteState extends State<CollectePage> {
             ),
           ),
           Card(
-            color: const Color.fromARGB(255, 204, 0, 10),
+            color: const Color.fromARGB(255, 1, 18, 144),
             child: ExpansionTile(
               title: const Text(
                 "Indicateur de performance",
@@ -656,13 +642,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText: "Nombre d'accidents"),
                                         controller: nbAmController,
                                         keyboardType: TextInputType.number,
@@ -687,11 +671,11 @@ class _CollecteState extends State<CollectePage> {
                                 focusedBorder: const OutlineInputBorder(
                                     borderSide: BorderSide(
                                         color:
-                                            Color.fromARGB(255, 204, 0, 10))),
+                                            Color.fromARGB(255, 1, 18, 144))),
                                 labelStyle:
                                     const TextStyle(color: Colors.black),
                                 floatingLabelStyle: const TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10)),
+                                    color: Color.fromARGB(255, 1, 18, 144)),
                                 labelText: "Sévérité",
                                 suffixIcon: PopupMenuButton<String>(
                                   icon: const Icon(Icons.arrow_drop_down),
@@ -728,13 +712,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText: "Nombre d'accidents"),
                                         controller: nbBaController,
                                         keyboardType: TextInputType.number,
@@ -759,11 +741,11 @@ class _CollecteState extends State<CollectePage> {
                                 focusedBorder: const OutlineInputBorder(
                                     borderSide: BorderSide(
                                         color:
-                                            Color.fromARGB(255, 204, 0, 10))),
+                                            Color.fromARGB(255, 1, 18, 144))),
                                 labelStyle:
                                     const TextStyle(color: Colors.black),
                                 floatingLabelStyle: const TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10)),
+                                    color: Color.fromARGB(255, 1, 18, 144)),
                                 labelText: "Sévérité",
                                 suffixIcon: PopupMenuButton<String>(
                                   icon: const Icon(Icons.arrow_drop_down),
@@ -800,13 +782,11 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10)),
+                                                color: Color.fromARGB(255, 1, 18, 144)),
                                             labelText: "Nombre d'accidents"),
                                         controller: nbCtmController,
                                         keyboardType: TextInputType.number,
@@ -831,11 +811,11 @@ class _CollecteState extends State<CollectePage> {
                                 focusedBorder: const OutlineInputBorder(
                                     borderSide: BorderSide(
                                         color:
-                                            Color.fromARGB(255, 204, 0, 10))),
+                                            Color.fromARGB(255, 1, 18, 144))),
                                 labelStyle:
                                     const TextStyle(color: Colors.black),
                                 floatingLabelStyle: const TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10)),
+                                    color: Color.fromARGB(255, 1, 18, 144)),
                                 labelText: "Sévérité",
                                 suffixIcon: PopupMenuButton<String>(
                                   icon: const Icon(Icons.arrow_drop_down),
@@ -872,8 +852,7 @@ class _CollecteState extends State<CollectePage> {
                                             border: OutlineInputBorder(),
                                             focusedBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
-                                                    color: Color.fromARGB(
-                                                        255, 204, 0, 10))),
+                                                    color: Color.fromARGB(255, 1, 18, 144))),
                                             labelStyle:
                                                 TextStyle(color: Colors.black),
                                             floatingLabelStyle: TextStyle(
@@ -903,11 +882,11 @@ class _CollecteState extends State<CollectePage> {
                                 focusedBorder: const OutlineInputBorder(
                                     borderSide: BorderSide(
                                         color:
-                                            Color.fromARGB(255, 204, 0, 10))),
+                                            Color.fromARGB(255, 1, 18, 144))),
                                 labelStyle:
                                     const TextStyle(color: Colors.black),
                                 floatingLabelStyle: const TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10)),
+                                    color: Color.fromARGB(255, 1, 18, 144)),
                                 labelText: "Sévérité",
                                 suffixIcon: PopupMenuButton<String>(
                                   icon: const Icon(Icons.arrow_drop_down),
@@ -973,7 +952,7 @@ class _CollecteState extends State<CollectePage> {
             ),
           ),
           Card(
-            color: const Color.fromARGB(255, 204, 0, 10),
+            color: const Color.fromARGB(255, 1, 18, 144),
             child: ExpansionTile(
               title: const Text(
                 "Indicateur Proactif",
@@ -1283,7 +1262,7 @@ class _CollecteState extends State<CollectePage> {
               },
               style: ElevatedButton.styleFrom(
                   minimumSize: const Size.fromHeight(50),
-                  backgroundColor: const Color.fromARGB(255, 204, 0, 10)),
+                  backgroundColor: const Color.fromARGB(255, 1, 18, 144)),
               child: const Text('Enregistrer',
                   style: TextStyle(
                       fontSize: 18,

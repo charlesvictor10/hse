@@ -126,7 +126,7 @@ class Menu extends StatelessWidget {
             appBar: PreferredSize(
               preferredSize: const Size.fromHeight(80.0),
               child: AppBar(
-                backgroundColor: const Color.fromARGB(255, 204, 0, 10),
+                backgroundColor: const Color.fromARGB(255, 1, 18, 144),
                 toolbarHeight: 30,
                 bottom: const TabBar(
                     dividerColor: Colors.white,
@@ -276,7 +276,7 @@ class _TableState extends State<ListTable> {
                           style: TextStyle(
                             fontFamily: 'Rubik Regular',
                             fontWeight: FontWeight.bold,
-                            color: Color.fromARGB(255, 204, 0, 10),
+                            color: Color.fromARGB(255, 1, 18, 144),
                             fontSize: 22
                           ),
                           textAlign: TextAlign.center,
@@ -428,7 +428,7 @@ class _TableKpiState extends State<ListKpi> {
                           style: TextStyle(
                             fontFamily: 'Rubik Regular',
                             fontWeight: FontWeight.bold,
-                            color: Color.fromARGB(255, 204, 0, 10),
+                            color: Color.fromARGB(255, 1, 18, 144),
                             fontSize: 22
                           ),
                           textAlign: TextAlign.center,
@@ -444,7 +444,7 @@ class _TableKpiState extends State<ListKpi> {
               desc: "Souhaitez vous faire une déclaration ou une collecte?",
               buttons: [
                 DialogButton(
-                  color: const Color.fromARGB(255, 204, 0, 10),
+                  color: const Color.fromARGB(255, 1, 18, 144),
                   onPressed: () => {
                     Navigator.of(context, rootNavigator: true).pop(),
                     Navigator.push(
@@ -461,7 +461,7 @@ class _TableKpiState extends State<ListKpi> {
                   ),
                 ),
                 DialogButton(
-                  color: const Color.fromARGB(255, 204, 0, 10),
+                  color: const Color.fromARGB(255, 1, 18, 144),
                   onPressed: () => {
                     Navigator.of(context, rootNavigator: true).pop(),
                     Navigator.push(
@@ -481,9 +481,9 @@ class _TableKpiState extends State<ListKpi> {
         },
         tooltip: 'Ajouter une nouvelle déclaration ou collecte',
         foregroundColor: Colors.white,
-        backgroundColor: const Color.fromARGB(255, 204, 0, 10),
-        hoverColor: const Color.fromARGB(255, 204, 0, 10),
-        focusColor: const Color.fromARGB(255, 204, 0, 10),
+        backgroundColor: const Color.fromARGB(255, 1, 18, 144),
+        hoverColor: const Color.fromARGB(255, 1, 18, 144),
+        focusColor: const Color.fromARGB(255, 1, 18, 144),
         child: const Icon(Icons.add),
       ),
     );
@@ -525,7 +525,7 @@ class _TableKpiState extends State<ListKpi> {
                                     style: const TextStyle(
                                         fontFamily: 'Rubik Regular',
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromARGB(255, 204, 0, 10),
+                                        color: Color.fromARGB(255, 1, 18, 144),
                                         fontSize: 25),
                                     textAlign: TextAlign.center,
                                   )),
@@ -535,7 +535,7 @@ class _TableKpiState extends State<ListKpi> {
                               child: Text(
                                 'Accidents',
                                 style: TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10),
+                                    color: Color.fromARGB(255, 1, 18, 144),
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
@@ -570,7 +570,7 @@ class _TableKpiState extends State<ListKpi> {
                                     style: const TextStyle(
                                         fontFamily: 'Rubik Regular',
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromARGB(255, 204, 0, 10),
+                                        color: Color.fromARGB(255, 1, 18, 144),
                                         fontSize: 25),
                                     textAlign: TextAlign.center,
                                   )),
@@ -580,7 +580,7 @@ class _TableKpiState extends State<ListKpi> {
                               child: Text(
                                 'Incidents',
                                 style: TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10),
+                                    color: Color.fromARGB(255, 1, 18, 144),
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
@@ -615,7 +615,7 @@ class _TableKpiState extends State<ListKpi> {
                                     style: const TextStyle(
                                         fontFamily: 'Rubik Regular',
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromARGB(255, 204, 0, 10),
+                                        color: Color.fromARGB(255, 1, 18, 144),
                                         fontSize: 25),
                                     textAlign: TextAlign.center,
                                   )),
@@ -625,7 +625,7 @@ class _TableKpiState extends State<ListKpi> {
                               child: Text(
                                 'Formations',
                                 style: TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10),
+                                    color: Color.fromARGB(255, 1, 18, 144),
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
@@ -660,7 +660,7 @@ class _TableKpiState extends State<ListKpi> {
                                     style: const TextStyle(
                                         fontFamily: 'Rubik Regular',
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromARGB(255, 204, 0, 10),
+                                        color: Color.fromARGB(255, 1, 18, 144),
                                         fontSize: 25),
                                     textAlign: TextAlign.center,
                                   )),
@@ -670,7 +670,7 @@ class _TableKpiState extends State<ListKpi> {
                               child: Text(
                                 'Inspections',
                                 style: TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10),
+                                    color: Color.fromARGB(255, 1, 18, 144),
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
@@ -705,7 +705,7 @@ class _TableKpiState extends State<ListKpi> {
                                     style: const TextStyle(
                                         fontFamily: 'Rubik Regular',
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromARGB(255, 204, 0, 10),
+                                        color: Color.fromARGB(255, 1, 18, 144),
                                         fontSize: 25),
                                     textAlign: TextAlign.center,
                                   )),
@@ -715,7 +715,7 @@ class _TableKpiState extends State<ListKpi> {
                               child: Text(
                                 'Installations et maintenances',
                                 style: TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10),
+                                    color: Color.fromARGB(255, 1, 18, 144),
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
@@ -750,7 +750,7 @@ class _TableKpiState extends State<ListKpi> {
                                     style: const TextStyle(
                                         fontFamily: 'Rubik Regular',
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromARGB(255, 204, 0, 10),
+                                        color: Color.fromARGB(255, 1, 18, 144),
                                         fontSize: 25),
                                     textAlign: TextAlign.center,
                                   )),
@@ -760,7 +760,7 @@ class _TableKpiState extends State<ListKpi> {
                               child: Text(
                                 'Conception lignes de transmission',
                                 style: TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10),
+                                    color: Color.fromARGB(255, 1, 18, 144),
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
@@ -795,7 +795,7 @@ class _TableKpiState extends State<ListKpi> {
                                     style: const TextStyle(
                                         fontFamily: 'Rubik Regular',
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromARGB(255, 204, 0, 10),
+                                        color: Color.fromARGB(255, 1, 18, 144),
                                         fontSize: 25),
                                     textAlign: TextAlign.center,
                                   )),
@@ -805,7 +805,7 @@ class _TableKpiState extends State<ListKpi> {
                               child: Text(
                                 'Déploiement fibre optique',
                                 style: TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10),
+                                    color: Color.fromARGB(255, 1, 18, 144),
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
@@ -840,7 +840,7 @@ class _TableKpiState extends State<ListKpi> {
                                     style: const TextStyle(
                                         fontFamily: 'Rubik Regular',
                                         fontWeight: FontWeight.bold,
-                                        color: Color.fromARGB(255, 204, 0, 10),
+                                        color: Color.fromARGB(255, 1, 18, 144),
                                         fontSize: 25),
                                     textAlign: TextAlign.center,
                                   )),
@@ -850,7 +850,7 @@ class _TableKpiState extends State<ListKpi> {
                               child: Text(
                                 'Visite management',
                                 style: TextStyle(
-                                    color: Color.fromARGB(255, 204, 0, 10),
+                                    color: Color.fromARGB(255, 1, 18, 144),
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,

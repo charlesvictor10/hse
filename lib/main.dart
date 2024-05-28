@@ -114,7 +114,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         focusedBorder: OutlineInputBorder(
                             borderSide: const BorderSide(
-                                color: Color.fromARGB(255, 204, 0, 10)),
+                                color: Color.fromARGB(255, 1, 18, 144)),
                             borderRadius: BorderRadius.circular(10)),
                         enabledBorder: OutlineInputBorder(
                             borderSide:
@@ -159,7 +159,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         focusedBorder: OutlineInputBorder(
                             borderSide: const BorderSide(
-                                color: Color.fromARGB(255, 204, 0, 10)),
+                                color: Color.fromARGB(255, 1, 18, 144)),
                             borderRadius: BorderRadius.circular(10)),
                         enabledBorder: OutlineInputBorder(
                             borderSide:
@@ -213,7 +213,7 @@ class _LoginPageState extends State<LoginPage> {
                         }
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color.fromARGB(255, 204, 0, 10),
+                        backgroundColor: const Color.fromARGB(255, 1, 18, 144),
                         padding: const EdgeInsets.symmetric(
                             horizontal: 50, vertical: 20),
                       ),

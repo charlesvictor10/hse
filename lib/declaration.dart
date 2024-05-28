@@ -139,7 +139,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
                     fontSize: 18),
               ),
             ),
-            backgroundColor: const Color.fromARGB(255, 204, 0, 10),
+            backgroundColor: const Color.fromARGB(255, 1, 18, 144),
             leading: Padding(
               padding: const EdgeInsets.only(top: 20.0),
               child: IconButton(
@@ -151,7 +151,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
       body: Theme(
         data: Theme.of(context).copyWith(
             colorScheme: const ColorScheme.light(
-                primary: Color.fromARGB(255, 204, 0, 10))),
+                primary: Color.fromARGB(255, 1, 18, 144))),
         child: Form(
           key: _formKey,
           child: Stepper(
@@ -178,7 +178,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor:
-                              const Color.fromARGB(255, 204, 0, 10),
+                              const Color.fromARGB(255, 1, 18, 144),
                           padding: const EdgeInsets.symmetric(
                               horizontal: 10, vertical: 5),
                         ),
@@ -193,7 +193,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
                         onPressed: controls.onStepContinue,
                         style: ElevatedButton.styleFrom(
                           backgroundColor:
-                              const Color.fromARGB(255, 204, 0, 10),
+                              const Color.fromARGB(255, 1, 18, 144),
                           padding: const EdgeInsets.symmetric(
                               horizontal: 10, vertical: 5),
                         ),
@@ -207,7 +207,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
                         onPressed: controls.onStepCancel,
                         style: ElevatedButton.styleFrom(
                           backgroundColor:
-                              const Color.fromARGB(255, 204, 0, 10),
+                              const Color.fromARGB(255, 1, 18, 144),
                           padding: const EdgeInsets.symmetric(
                               horizontal: 10, vertical: 5),
                         ),
@@ -222,7 +222,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
                         onPressed: controls.onStepContinue,
                         style: ElevatedButton.styleFrom(
                           backgroundColor:
-                              const Color.fromARGB(255, 204, 0, 10),
+                              const Color.fromARGB(255, 1, 18, 144),
                           padding: const EdgeInsets.symmetric(
                               horizontal: 10, vertical: 5),
                         ),
@@ -265,7 +265,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor:
-                              const Color.fromARGB(255, 204, 0, 10),
+                              const Color.fromARGB(255, 1, 18, 144),
                           padding: const EdgeInsets.symmetric(
                               horizontal: 10, vertical: 5),
                         ),
@@ -420,10 +420,10 @@ class _FlutterStepsState extends State<DeclarationPage> {
                       border: OutlineInputBorder(),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Color.fromARGB(255, 204, 0, 10))),
+                              color: Color.fromARGB(255, 1, 18, 144))),
                       labelStyle: TextStyle(color: Colors.black),
                       floatingLabelStyle:
-                          TextStyle(color: Color.fromARGB(255, 204, 0, 10)),
+                          TextStyle(color: Color.fromARGB(255, 1, 18, 144)),
                       labelText: "Prénom"),
                   controller: prenomController,
                   validator: (value) {
@@ -443,10 +443,10 @@ class _FlutterStepsState extends State<DeclarationPage> {
                       border: OutlineInputBorder(),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Color.fromARGB(255, 204, 0, 10))),
+                              color: Color.fromARGB(255, 1, 18, 144))),
                       labelStyle: TextStyle(color: Colors.black),
                       floatingLabelStyle:
-                          TextStyle(color: Color.fromARGB(255, 204, 0, 10)),
+                          TextStyle(color: Color.fromARGB(255, 1, 18, 144)),
                       labelText: "Nom"),
                   controller: nomController,
                   validator: (value) {
@@ -466,10 +466,10 @@ class _FlutterStepsState extends State<DeclarationPage> {
                       border: OutlineInputBorder(),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Color.fromARGB(255, 204, 0, 10))),
+                              color: Color.fromARGB(255, 1, 18, 144))),
                       labelStyle: TextStyle(color: Colors.black),
                       floatingLabelStyle:
-                          TextStyle(color: Color.fromARGB(255, 204, 0, 10)),
+                          TextStyle(color: Color.fromARGB(255, 1, 18, 144)),
                       labelText: "Titre"),
                   controller: titreController,
                   validator: (value) {
@@ -494,10 +494,10 @@ class _FlutterStepsState extends State<DeclarationPage> {
                       border: OutlineInputBorder(),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Color.fromARGB(255, 204, 0, 10))),
+                              color: Color.fromARGB(255, 1, 18, 144))),
                       labelStyle: TextStyle(color: Colors.black),
                       floatingLabelStyle:
-                          TextStyle(color: Color.fromARGB(255, 204, 0, 10)),
+                          TextStyle(color: Color.fromARGB(255, 1, 18, 144)),
                       labelText: 'Date de l\'accident'),
                   controller: dateController,
                   onTap: () async {
@@ -514,9 +514,9 @@ class _FlutterStepsState extends State<DeclarationPage> {
                                         onPrimary: Colors.black,
                                         onSurface: Colors.black,
                                         primary:
-                                            Color.fromARGB(255, 204, 0, 10)),
+                                           Color.fromARGB(255, 1, 18, 144)),
                                 dialogBackgroundColor:
-                                    const Color.fromARGB(255, 204, 0, 10),
+                                    const Color.fromARGB(255, 1, 18, 144),
                                 textButtonTheme: TextButtonThemeData(
                                     style: TextButton.styleFrom(
                                         foregroundColor: Colors.black,
@@ -528,8 +528,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
                                         backgroundColor: Colors.white,
                                         shape: RoundedRectangleBorder(
                                             side: const BorderSide(
-                                                color: Color.fromARGB(
-                                                    255, 204, 0, 10),
+                                                color: Color.fromARGB(255, 1, 18, 144),
                                                 width: 1,
                                                 style: BorderStyle.solid),
                                             borderRadius:
@@ -564,10 +563,10 @@ class _FlutterStepsState extends State<DeclarationPage> {
                       border: OutlineInputBorder(),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Color.fromARGB(255, 204, 0, 10))),
+                              color: Color.fromARGB(255, 1, 18, 144))),
                       labelStyle: TextStyle(color: Colors.black),
                       floatingLabelStyle:
-                          TextStyle(color: Color.fromARGB(255, 204, 0, 10)),
+                          TextStyle(color: Color.fromARGB(255, 1, 18, 144)),
                       labelText: 'Heure de l\'accident'),
                   controller: heureController,
                   onTap: () async {
@@ -580,9 +579,9 @@ class _FlutterStepsState extends State<DeclarationPage> {
                                   colorScheme: const ColorScheme.highContrastLight(
                                       onPrimary: Colors.black,
                                       onSurface: Colors.black,
-                                      primary: Color.fromARGB(255, 204, 0, 10)),
+                                      primary: Color.fromARGB(255, 1, 18, 144)),
                                   dialogBackgroundColor:
-                                      const Color.fromARGB(255, 204, 0, 10),
+                                      const Color.fromARGB(255, 1, 18, 144),
                                   textButtonTheme: TextButtonThemeData(
                                       style: TextButton.styleFrom(
                                           foregroundColor: Colors.black,
@@ -594,8 +593,7 @@ class _FlutterStepsState extends State<DeclarationPage> {
                                           backgroundColor: Colors.white,
                                           shape: RoundedRectangleBorder(
                                               side: const BorderSide(
-                                                  color: Color.fromARGB(
-                                                      255, 204, 0, 10),
+                                                  color: Color.fromARGB(255, 1, 18, 144),
                                                   width: 1,
                                                   style: BorderStyle.solid),
                                               borderRadius: BorderRadius.circular(50))))),
@@ -632,10 +630,10 @@ class _FlutterStepsState extends State<DeclarationPage> {
                       border: OutlineInputBorder(),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Color.fromARGB(255, 204, 0, 10))),
+                              color: Color.fromARGB(255, 1, 18, 144))),
                       labelStyle: TextStyle(color: Colors.black),
                       floatingLabelStyle:
-                          TextStyle(color: Color.fromARGB(255, 204, 0, 10)),
+                          TextStyle(color: Color.fromARGB(255, 1, 18, 144)),
                       labelText: 'Cause de l\'accident'),
                   controller: causeController,
                   validator: (value) {
@@ -676,10 +674,10 @@ class _FlutterStepsState extends State<DeclarationPage> {
                       border: OutlineInputBorder(),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Color.fromARGB(255, 204, 0, 10))),
+                              color: Color.fromARGB(255, 1, 18, 144))),
                       labelStyle: TextStyle(color: Colors.black),
                       floatingLabelStyle:
-                          TextStyle(color: Color.fromARGB(255, 204, 0, 10)),
+                          TextStyle(color: Color.fromARGB(255, 1, 18, 144)),
                       labelText: 'Description de l\'accident'),
                   controller: descriptionController,
                   keyboardType: TextInputType.multiline,

@@ -41,7 +41,7 @@ class DetailPage extends StatelessWidget {
                     fontSize: 18),
               ),
             ),
-            backgroundColor: const Color.fromARGB(255, 204, 0, 10),
+            backgroundColor: const Color.fromARGB(255, 1, 18, 144),
             leading: Padding(
               padding: const EdgeInsets.only(top: 20.0),
               child: IconButton(
