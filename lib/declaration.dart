@@ -11,10 +11,8 @@ import 'package:intl/intl.dart';
 import 'package:poc_free/home.dart';
 
 // ignore: constant_identifier_names
-const SERVER_IP = 'http://127.0.0.1:8000';
-const SERVER_ML_IP = 'http://127.0.0.1:7000';
-//const SERVER_IP = 'http://192.168.1.14:8000';
-//const SERVER_IP = 'http://10.0.2.2:8000';
+const SERVER_IP = 'https://poc-free-backend.azurewebsites.net';
+const SERVER_ML_IP = 'https://poc-free-ml.icymoss-01df5cf2.canadacentral.azurecontainerapps.io';
 const storage = FlutterSecureStorage();
 
 class DeclarationPage extends StatefulWidget {

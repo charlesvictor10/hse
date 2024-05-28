@@ -12,9 +12,7 @@ import 'package:poc_free/main.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 // ignore: constant_identifier_names
-const SERVER_IP = 'http://127.0.0.1:8000';
-//const SERVER_IP = 'http://192.168.1.14:8000';
-//const SERVER_IP = 'http://10.0.2.2:8000';
+const SERVER_IP = 'https://poc-free-backend.azurewebsites.net';
 const storage = FlutterSecureStorage();
 
 class HomePage extends StatelessWidget {
